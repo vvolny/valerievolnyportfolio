@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/vv.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+ <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=FontSmythe">
+ <script src="vv.js"></script>
+ <script type="text/javascript" 
+        src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" 
+        src="C:\Users\Wish\Desktop\vv website\easy-comment.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+<script src="path/to/js/gsap/TweenMax.min.js"></script>
+<script src="path/to/js/jquery.min.js"></script>
+<!-- should be replaced with minified version when development is finished -->
+<script src="path/to/js/jquery.scrollmagic.js"></script>
+<!-- should be removed when development is finished -->
+<script src="path/to/js/jquery.scrollmagic.debug.js"></script><script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+<!--LinkedIn-->
+<!--comments-->
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="js/app.js"></script>
+
+	<style>
+	
+
+	</style>
+	
+	
+	<title id="maintitle">Valérie Volny</title>
+</head>
+
+	<header>
+		<!--<h1>Valérie Volny</h1>-->
+	
+	<div id= "TopPic"></div>
+	<nav id= "cssmenu">
+		<!--Navigation-->
+		<ul>
+			<li class='active'><a href='#'>Home</a></li>
+			<li><a href="#intro">About Me</a></li>
+			<li><a href="#qualification">Qualification</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#">Contact</a></li>
+			<li class="subscribe"><a href="#"></a></li>
+		</ul>
+	</nav>
+	</header>
+	
+	<section class="intro">
+		<header>
+		<div id="facePic"> 
+				<img src= "professionalPic.jpg" alt= "Face Picture">
+				</div>
+			<h2>About Me</h2> 
+		<div id= "text1">
+			<p>Born and raise in Montreal at 27 years old I decided that i wanted something different something new </p>
+			<div id="travelling"><img src="trajet_TRTO_VCVR.gif" alt="Map Montreal Toronto" align= "right"></div>
+			
+		</div>
+		
+		</header>
+			
+		
+		<!--Introduction-->
+		
+	</section>
+	<section class="qualification">
+			<h2>Qualification</h2>
+		<div id="htmlcertificate">
+			<img src="cert-1014-620968.jpg" alt="HTML Certificate " style= "width:300px;height:200px;"></div>
+		<div id="cssCeritificate"><img src="cert-1023-620968.jpg" alt="CSS Certificate " style= "width:300px;height:200px;"> </div>
+		<div id="javascriptcertificate"><img src="cert-1024-620968.jpg" alt="JavaScript Certificate " style= "width:300px;height:200px;"><div>
+		<div id="javacertificate"></div>
+			
+	</section>
+		<!--Main content area-->
+
+		<section id="projects">
+			<header>
+				<h3>Comments</h3>
+			</header>
+		<article>
+		
+			<header>
+				<a href="#">George Washington</a> on <time datetime="2009-06-29T23:35:20+01:00">June 29th 2009 at 23:35</time>
+			</header>
+			
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+    </article>
+    <article>
+        <header>
+            <a href="#">Benjamin Franklin</a> on <time datetime="2009-06-29T23:40:09+01:00">June 29th 2009 at 23:40</time>
+        </header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+    </article>
+</section>
+
+<section id="content">
+
+</section>
+<section id="comments">
+	<div id="respond">
+	<h3>Leave a Comment</h3>
+
+  <form action="post_comment.php" method="post" id="commentform">
+
+    <label for="comment_author" class="required">Your name</label>
+    <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+    <label for="email" class="required">Your email</label>
+    <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+    <label for="comment" class="required">Your message</label>
+    <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+    <-- comment_post_ID value hard-coded as 1 -->
+    <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+    <input name="submit" type="submit" value="Submit comment" />
+
+  </form>
+	
+	</div>
+
+</section>
+
+
+
+
+	<aside>
+		<!--<div id="my-comment">
+		<form class="form-style-4" action="" method="post">
+		<label for="field1">
+		<span>Enter Your Name</span><input type="text" name="field1" required="true" />
+		</label>
+		<label for="field2">
+		<span>Email Address</span><input type="email" name="field2" required="true" />
+		</label>
+		<label for="field4">
+		<span>Comment</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+		</label>
+		<label>
+		<span>&nbsp;</span><input type="submit" value="Submit" />
+		</label>
+		</form>
+		</div>-->
+	</aside>
+	
+	<footer class="bottomPage">
+		<p id="quote"><i>“It always seems impossible until it's done.” 
+― Nelson Mandela</i></p>
+		
+		<div id="bottomPageLinks"><a href="#intro">About Me</a>
+		<a href="#qualification">Qualification</a>
+		<a href="#projects">Projects</a>
+		
+		</div>
+		
+		
+		
+	</footer>
+	
+</body>
+</html>
